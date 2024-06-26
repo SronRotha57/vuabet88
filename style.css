@@ -50,6 +50,9 @@ p{
   .active{
     color: red;
   }
+  #click .border{
+    border: none;
+  }
   
 
 @media all and (max-width: 767px){
@@ -81,7 +84,7 @@ p{
       .border{
           border: none;
       }
-      ul li{
+      #click li{
         border-bottom: 1px solid rgba(173, 172, 172, 0.411);
       }
 }
